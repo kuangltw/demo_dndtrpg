@@ -16,9 +16,19 @@ DNDTRPG 是面向繁體中文玩家的 DND 5E inspired 文字地城 RPG。玩家
 
 ## 遊戲操作畫面
 
-目前已擷取專案實際繁中登入介面；這張截圖只展示登入頁，不代表已完成登入或遊戲操作驗收。因本次工作階段無法啟動 Laravel／MySQL 後端，角色列表、副本路線、戰鬥操作、結算獎勵及 Admin Review Console 等操作截圖待補。截圖需使用去識別化展示帳號，遮蔽 email、token、個資及內部識別碼；不以生成圖或美術參考圖冒充實機畫面。
+以下畫面由 2026-10-15 的專案實際瀏覽器操作擷取，使用專案專用開發驗收角色；不含登入帳號、email、token 或 Cookie。這次完成角色與裝備查看、副本路線選擇、一場實際戰鬥與勝利結果。展示副本其後透過遊戲介面放棄，確認沒有進行中的副本。這是第一場遭遇的操作展示，不代表完整副本結算驗收。
 
-![專案登入頁實際截圖](assets/login-page.png)
+| 畫面 | 截圖 |
+| --- | --- |
+| 角色列表 | ![角色列表](assets/character-list.png) |
+| 角色詳情 | ![角色詳情](assets/character-detail.png) |
+| 裝備 | ![裝備](assets/equipment.png) |
+| 副本列表 | ![副本列表](assets/dungeon-list.png) |
+| 黑牙洞窟路線選擇 | ![路線選擇](assets/route-choice.png) |
+| 回合制戰鬥 | ![戰鬥回合](assets/battle.png) |
+| 戰鬥勝利與紀錄 | ![戰鬥結果](assets/battle-result.png) |
+| 副本進度 | ![副本進度](assets/dungeon-progress.png) |
+| 登入頁 | ![登入頁](assets/login-page.png) |
 
 ## AI Agent 協作與問題解決案例
 
